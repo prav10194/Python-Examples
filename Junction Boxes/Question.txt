@@ -1,0 +1,123 @@
+https://www.reddit.com/r/AskProgramming/comments/b7wex0/need_help_amcat/
+
+You are working for a telecommunications company that is trying to upgrade junction boxes all over Techlandia. Some of the junction boxes have already been upgraded, and other boxes have not. Your task is to identify the oldest boxes that need to be upgraded first but leaving the newer model boxes so that they will not be prioritized.
+
+All the junction boxes are identified by an alphanumeric identifier, followed by space delimited version information. The older generation uses space delimited lowercase English strings to identify the version, but the newer generation uses space delimited positive integers to identify the version. Your task is to sort the junction boxes in the following order:
+
+The older generation junction boxes with the earliest lexicographic version should come first.
+
+If there are any ties in the older generation, ties should be broken by the alphanumeric identifier.
+
+3. Finally, the newer generation boxes should also be retuned, in the original order, they were in the List
+
+Write a function or method to return the junction boxes in the specified order.
+
+
+
+Input: The input to the function/method consists of two arguments:
+
+numberOfBoxes, an integer representing the number of junction boxes.
+
+boxList, a list of Strings representing all of the identifiers and version information.
+
+Output: Return a list of strings representing the correctly ordered junction boxes.
+
+Note: The junction box identifier consists of only lower case English character and numbers
+
+
+
+Example:
+
+Input: numberOfBoxes = 6
+
+boxList =
+
+[ykc 82 01]
+
+[eo first qpx]
+
+[09z cat hamster]
+
+[06f 12 25 6]
+
+[az0 first qpx]
+
+[236 cat dog rabbit snake]
+
+Output:
+
+[236 cat dog rabbit snake]
+
+[09z cat hamster]
+
+[az0 first qpx]
+
+[eo first qpx]
+
+[ykc 82 01]
+
+[06f 12 25 6]
+
+
+
+Explanation:
+
+The four old generation junction boxes should come first, with the "cat dog rabbit snake" box coming befor ethe "cat hamster". Since the two boxes of type "first qpx" have the same version information, they should come next, using the "az0" identifier to come before the "eo" identifier. Finally, the already upgraded junction boxes should come last, in the original order they were provided in the file.
+
+JAVASCRIPT Starter Code:
+
+function orderedJunctionBoxes(numberOfBoxes, boxList)
+
+{
+
+// Write your code here
+
+}
+
+// Funciton signature ends
+
+
+
+JAVA Starter Code:
+
+import java.util.List;
+
+public class Solution
+
+{
+
+public List<String> orderedJunctionBoxes(int numberOfBoxes, List<String> boxList)
+
+{
+
+// Write your code here
+
+}
+
+// Method signature ends
+
+}
+
+
+
+C++ Starter Code:
+
+vector<string> orderedJunctionBoxes(int number OfBoxes, vector<string> boxList)
+
+{
+
+// Write your code here
+
+}
+
+// Function signature ends
+
+
+
+Python Starter Code:
+
+def orderedJunctionBoes(numberOfBoxes, boxList):
+
+# Write your code here
+
+pass
