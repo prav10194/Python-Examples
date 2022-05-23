@@ -28,5 +28,4 @@ Explanation: You will start at index 0.
 The total cost is 6.
 
 
-**Solution Hint: For each index in array, compute the minimum cost if we jump to next or next of next. Save that value in current index. Iterate backwards. 
-**
+<b>Solution Hint: For each index in array, compute the minimum cost if we jump to next or next of next. Save that value in current index. Iterate backwards. </b>
