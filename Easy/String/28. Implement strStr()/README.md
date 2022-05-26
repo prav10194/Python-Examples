@@ -29,4 +29,4 @@ Constraints:
 
 
 
-<b>Solution: Take two pointers - l and r of the sliding window. Move the window in haystack if substring doesn't match the charcters in the window. </b> 
+<b>Solution: Take two pointers -> l and r of the sliding window. Move the window in haystack if substring doesn't match the charcters in the window. </b> 
