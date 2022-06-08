@@ -26,4 +26,4 @@ Constraints:
     -104 <= nums[i] <= 104
     nums is sorted in a strictly increasing order.
 
-<b>Solution: Helper function to create a node of the middle value. node.left will pass teh updated value of l and r and same with node.right. Retrun node. Exit from the recursion when l > r.</b>
+<b>Solution: Helper function to create a node of the middle value. node.left will pass teh updated value of l and r and same with node.right. Return node. Exit from the recursion when l > r.</b>
