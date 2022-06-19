@@ -44,10 +44,13 @@ Constraints:
 
 <b>Solution: We can use backtracking - to add an element or not to add. 
   Base condition: When index == length of array, store the length of the created string if len of list of string == len of set of string to ensure unqiueness. 
-  
+  <br>
   Append element in local array
+   <br>
   backtrack with index updated by 1
+   <br>
   Pop element from local array
+   <br>
   backtrack with index updated by 1
-  
+   <br>
 </b>
