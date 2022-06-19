@@ -35,4 +35,4 @@ Constraints:
 
 <b>Solution: Following the usual backtracking solution as showing in image below - we will add either "0" or "1" in our binStr recursively until we find a unique string which is not there in our hashSet. Return None if string is there, if not return the unique string. And as usual with backtracking we clean up the string by removing the last character. This is not required in this case. <b>
 
-
+![alt text](https://github.com/prav10194/Python-Examples/blob/master/Backtrack/1980.%20Find%20Unique%20Binary%20String/1980.png)
