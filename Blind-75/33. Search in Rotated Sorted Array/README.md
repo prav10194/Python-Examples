@@ -1,6 +1,6 @@
-Problem link - 
+Problem link - https://leetcode.com/problems/search-in-rotated-sorted-array/
 
-Level - 
+Level - Medium
 
 Category - Binary Search
 
