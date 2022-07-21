@@ -4,4 +4,4 @@ Level:
 
 Category: 
 
-<b>Solution: </b>
+<b>Solution: Use trie</b>
