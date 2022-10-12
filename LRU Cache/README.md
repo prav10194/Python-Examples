@@ -31,5 +31,5 @@ For put - we have to perform 3 actions.
 
 For performing the main 2 functions, we would need to create 2 more helpful functions. 
 
-1. delete(key) - will delete the LR visited key
+1. delete(key) - will delete the key from LL.
 2. insert(key, value) - will insert the key as MR visited key. 
