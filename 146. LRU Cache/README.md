@@ -1,6 +1,6 @@
 ## LRU Cache
 
-#### Problem Statment
+#### Problem Statment - https://leetcode.com/problems/lru-cache/
 
 We need to create 2 functions, get(key) and put(key, value)
 
