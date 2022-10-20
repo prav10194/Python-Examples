@@ -8,11 +8,9 @@ class RandomizedSet:
     def insert(self, val: int) -> bool:
         if val in self.sdict:
             return False
-        
         # set the new value of dictionary to next index (which is len of slist)
         self.sdict[val] = len(self.slist)
         self.slist.append(val)
-        
         return True
 
     def remove(self, val: int) -> bool:
@@ -20,15 +18,14 @@ class RandomizedSet:
             return False
         
         # retrieve index of value and update value of last element in list with that index
+        index = self.sdict[val]
         self.sdict[val], self.sdict[self.slist[-1]] = self.sdict[self.slist[-1]], self.sdict[val]
         
         # swap index and last element
         self.slist[-1], self.slist[index] = self.slist[index], self.slist[-1]
         
-        # remove last element and remove val from dictionary
         self.slist.pop()
         del self.sdict[val]
-        
         return True
         
     def getRandom(self) -> int:
