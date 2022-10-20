@@ -120,3 +120,5 @@ For deleting, we have to start from head and go through all the nodes to find th
     
     raise ValueError(f'Value {value} does not exist in the list')
 ```
+
+Complexity - https://brilliant.org/wiki/unrolled-linked-list/
