@@ -12,6 +12,9 @@ Additional operations: Key might exist in the cache, in that case it needs to be
 
 #### Solution
 
+![image](https://user-images.githubusercontent.com/8276139/196853676-475c5b73-b511-45b3-9fff-987d7793a4aa.png)
+
+
 To solve this problem we will save the keys as node of a Doubly Linked List. We will maintain a HashMap to save the nodes of the linked list. The left most node of the DLL will be the least recetly used key where as the right most node will be the most recently used key. 
 
 Step 1: We need to create a ListNode class that will take key, value pair. The prev, next will be set as None by default. 
