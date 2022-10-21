@@ -1,8 +1,12 @@
-## Problem Statement
+## Problem Statement - 
 
 Implement the functions of the class such that each function (insert, remove, getRandom) works in average O(1) time complexity.
 
 The runtime complexity of the <b>set.add(), set.remove() function is O(1)</b> because Python's set data structure is implemented as a hash table and you can expect lookup, insert, and delete operations to have constant runtime complexity.
+
+#### Why can't we use sets? 
+
+We can use for insertion and deletion but for finding random numbers, when we use choice - it converts the set to list and then finds the random number. Hence we would need 2 data structures - hashmap to eliminate the issue of removing element from a list in O(1) time. 
 
 #### Data Structure
 
