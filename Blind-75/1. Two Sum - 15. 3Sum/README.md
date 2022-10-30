@@ -1,4 +1,4 @@
-1. Two Sum
+1. Two Sum - https://leetcode.com/problems/two-sum/
 
 <b>Solution: Create a hashmap to store (key, value) where <i>key = current number in array</i> and <i>value is current index</i>. <br>Before adding, check if target - num exists in hashmap.keys(). If yes, return with the current index and hashmap value.</b> 
 
@@ -12,7 +12,7 @@ Time Complexity: O(n)
 Space Complexity: O(1)
 Time Complexity: O(n)
   
-15. 3Sum
+15. 3Sum - https://leetcode.com/problems/3sum/
 
 <b>Solution: Follow the approach for 2Sum II, sort the elements - O(n*logn). <br>Iterate over each element, keep two pointers left and right and find sum of all three.<br>If sum < 0, increase left pointer else if > 0 increase right pointer. If == 0, add it to set.</br> 
 
