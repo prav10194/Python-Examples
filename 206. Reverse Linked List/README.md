@@ -9,7 +9,7 @@ Solution: start with 2 pointers: **prev and curr** Initilaize them as **None and
 
 Now start with swapping the pointers for curr and prev and then move forward
 
-<img width="812" alt="image" src="https://user-images.githubusercontent.com/8276139/200450191-31c520c7-6e42-4d2a-8fce-3c1928adb154.png">
+<img width="775" alt="image" src="https://user-images.githubusercontent.com/8276139/200451030-b22bf844-976a-448d-bb29-dcece537fede.png">
 
 
 ```python
