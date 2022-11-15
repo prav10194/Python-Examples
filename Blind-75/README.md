@@ -4,6 +4,9 @@ Two Sum - https://github.com/prav10194/Python-Examples/tree/master/Blind-75/1.%2
 <br/>
 Longest Consecutive Sequence - https://github.com/prav10194/Python-Examples/tree/master/Blind-75/128.%20Longest%20Consecutive%20Sequence
 Finding minimum in rotating array - https://github.com/prav10194/Python-Examples/tree/master/Blind-75/153.%20Find%20Minimum%20in%20Rotated%20Sorted%20Array
+Contains Duplicate - https://github.com/prav10194/Python-Examples/tree/master/Blind-75/217.%20Contains%20Duplicate
+Valid Anagram - https://github.com/prav10194/Python-Examples/tree/master/Blind-75/242.%20Valid%20Anagram
+Group Anagrams - https://github.com/prav10194/Python-Examples/tree/master/Blind-75/49.%20Group%20Anagrams
 
 ## BFS
 
