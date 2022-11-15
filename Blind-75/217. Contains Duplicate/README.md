@@ -4,8 +4,9 @@
   
   <br>
   <br>
-  <b>Solution: Insert element in set. If it already exists, return True. 
-  Time Complexity: O(n)
-  Space Complexity: O(n)
+  <b>Solution: </b><br/>
+  Return not of if len(nums) == len(set(nums))
+  <br/>Time Complexity: O(n)
+  <br/>Space Complexity: O(n)
 
 </b>
