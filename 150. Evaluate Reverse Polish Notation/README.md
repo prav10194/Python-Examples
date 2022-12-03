@@ -1,5 +1,7 @@
 Link: https://leetcode.com/problems/evaluate-reverse-polish-notation/
 
+Similar question: https://leetcode.com/problems/baseball-game/
+
 <b>Solution: </b>We can use stack for solving this - 
 
 ```python
