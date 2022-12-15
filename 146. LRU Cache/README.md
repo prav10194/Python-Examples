@@ -27,7 +27,7 @@ class ListNode:
     self.prev, self.next = None
 ```
 
-Step 2: In our LR Cache class, we need to initialize our HashMap <b>cache = {}</b> and our 2 starting nodes, left and right (which for now will be pointing to each other). 
+Step 2: In our LR Cache class, we need to initialize our HashMap <b>cache = {}</b> and our 2 starting nodes, left and right (which for now will be pointing to each other). <b>One of the reasons of using a cache is to retrieve keys in O(1) as specified in the question.</b>
 
 ```python
 class LRU:
