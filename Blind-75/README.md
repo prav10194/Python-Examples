@@ -30,3 +30,9 @@ Reverse Linked List - https://github.com/prav10194/Python-Examples/tree/master/2
 Merge sorted linked list - https://github.com/prav10194/Python-Examples/tree/master/Blind-75/Blind-150/21.%20Merge%20Two%20Sorted%20Lists
 Detect cycle in Linked List - https://github.com/prav10194/Python-Examples/tree/master/Blind-75/Blind-150/141.%20Linked%20List%20Cycle
 Copy List with Random Pointer - https://github.com/prav10194/Python-Examples/tree/master/Blind-75/Blind-150/138.%20Copy%20List%20with%20Random%20Pointer
+
+## Stack
+
+Valid Paranthesis - https://leetcode.com/problems/valid-parentheses/
+Min Stack - https://leetcode.com/problems/min-stack/
+Evaluate Reverse Polish Notation - https://leetcode.com/problems/evaluate-reverse-polish-notation/
