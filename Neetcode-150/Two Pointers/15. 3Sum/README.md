@@ -1,4 +1,4 @@
-<b>Level:</b> Hard
+<b>Level:</b> Medium
 
 <b>Category:</b> Two Pointers
 
