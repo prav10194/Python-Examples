@@ -6,7 +6,7 @@
 
 <b>Solution: </b>Recognizing the pattern for backtracking. In this case it would look something like this - 
 
-<img width="961" alt="image" src="https://user-images.githubusercontent.com/8276139/210379944-59a8e0c3-7ba0-4f86-b689-74cc410d92e5.png">
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/8276139/210379944-59a8e0c3-7ba0-4f86-b689-74cc410d92e5.png">
 
 So we can either add an element and keep the index as it is without incrementing (as we can have repeated values) or we can not add it and move to the next element. 
 
