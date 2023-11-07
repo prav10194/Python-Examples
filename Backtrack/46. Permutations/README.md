@@ -1,31 +1,59 @@
-Medium
+<b>Level: </b>Medium
 
-Given an array nums of distinct integers, return all the possible permutations. You can return the answer in any order.
+<b>Category: </b>Backtrack
 
- 
+<b>Space Complexity: </b>
+<br/><b>Time Complexity: </b>
 
-Example 1:
+<b>Solution: </b><i>Note: This is a slightly different approach than the one in solution.py</i>
+<br/><br/>Every backtracking problem follows the same pattern. We need to figure out these things: 
 
-Input: nums = [1,2,3]
-Output: [[1,2,3],[1,3,2],[2,1,3],[2,3,1],[3,1,2],[3,2,1]]
+<b>1. Find out what will be the parameter on which the backtrack will run (and break): </b>For permutations, we will pass the temp list that stores the current permutation as the parameter. 
 
-Example 2:
+```python
+def bt(tempPermutation):
+ # main logic here
+```
 
-Input: nums = [0,1]
-Output: [[0,1],[1,0]]
+<b>2. The condition when we will exit the backtrack and append the result - also known as break condition: </b>When the length of the current permutation equals the length of our nums array,  we will append the temp permutation into our main result and return. 
 
-Example 3:
+```python
+if len(tempPermutation) == len(nums):
+  permutations.append(tempPermutation.copy())
+  return
+```
 
-Input: nums = [1]
-Output: [[1]]
+<b>3. All the possible scenarios when we call the backtrack function: </b>Since each permutation should contain each element from our input array, we will iterate over the nums array and append it in our temp permutation if the element has not been in it yet. We call bt() just once with our updated temp combination. 
 
- 
+```python
+for num in nums:
+  if num not in tempPermutation:
+      tempPermutation.append(num)
+      bt(tempPermutation)
+      tempPermutation.pop()
+```
 
-Constraints:
+<b>4. The initial parameter passed to start the backtrack: </b>We will start with an empty list initially. 
 
-    1 <= nums.length <= 6
-    -10 <= nums[i] <= 10
-    All the integers of nums are unique.
+```python
+bt([])
+```
 
+<b>Complete code: </b>
 
-<b>Solution: </b>
+```python
+permutations = []
+def bt(tempPermutation):
+    if len(tempPermutation) == len(nums):
+        permutations.append(tempPermutation.copy())
+        return
+    
+    for num in nums:
+        if num not in tempPermutation:
+            tempPermutation.append(num)
+            bt(tempPermutation)
+            tempPermutation.pop()
+
+bt([])
+return permutations
+```
