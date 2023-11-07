@@ -39,7 +39,7 @@ for num in nums:
 bt([])
 ```
 
-<b>Complete code: </b>
+<br/><b>Complete code: </b>
 
 ```python
 permutations = []
