@@ -1,4 +1,8 @@
-Link - https://leetcode.com/problems/combination-sum/
+<b>Link: </b>https://leetcode.com/problems/combination-sum/
+
+<b>Level: </b>Medium
+
+<b>Category: </b>Backtrack
 
 <b>Solution: </b>Recognizing the pattern for backtracking. In this case it would look something like this - 
 
